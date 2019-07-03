@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - ghost > amperize > async > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > knex-migrator > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > analytics-node > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > ghost-ignition > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > archiver > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > bookshelf > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > ghost-gql > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > knex > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > archiver > zip-stream > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > @nexes/nql > @nexes/mongo-knex > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > archiver > async > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > bookshelf-relations > ghost-ignition > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > amperize > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > knex-migrator > ghost-ignition > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > gscan > express-hbs > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > archiver > archiver-utils > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > brute-knex > eslint > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > brute-knex > knex > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > knex-migrator > knex > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > gscan > ghost-ignition > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > brute-knex > eslint > table > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > brute-knex > eslint > inquirer > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
+    - ghost > express-hbs > handlebars > async > lodash:
+        patched: '2019-07-03T21:58:56.656Z'
